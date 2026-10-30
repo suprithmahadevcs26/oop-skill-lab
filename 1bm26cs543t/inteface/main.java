@@ -21,7 +21,7 @@ System.out.println("Parking Charge: Rs. " + calculateCharge());
 System.out.println();
 }
 }
-
+ 
 class TwoWheeler extends VehicleParking {
 TwoWheeler(String number, int hours) {
 super(number, "Two Wheeler", hours);
